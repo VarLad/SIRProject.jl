@@ -11,7 +11,7 @@ end
 Its governed by the following set of equations 
 ``\frac{dS}{dt} = \frac{-βIs}{s+I+r}``
 ``\frac{dI}{dt} = \frac{βIs}{s+I+r} - γI``
-``\frac{dI}{dt} = γ*I``#=
+``\frac{dI}{dt} = γI``
 ``I`` = infected individuals who can pass on the disease to others
 ``s`` = individuals who're yet to be infected
 ``r`` = individuals who've been infected but can not transmit the disease.
