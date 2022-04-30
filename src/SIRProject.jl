@@ -9,9 +9,9 @@ end
 
 """
 Its governed by the following set of equations 
-``\frac{dS}{dt} = \frac{-βIs}{s+I+r}``
-``\frac{dI}{dt} = \frac{βIs}{s+I+r} - γI``
-``\frac{dI}{dt} = γI``
+``dS/dt = -βIs/(s+I+r)``
+``dI/dt = βIs/(s+I+r) - γI``
+``dr/dt = γI``
 """#=
 ``I`` = infected individuals who can pass on the disease to others
 ``s`` = individuals who're yet to be infected
