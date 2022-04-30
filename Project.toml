@@ -1,10 +1,7 @@
 name = "SIRProject"
-uuid = "235929a8-3f31-4fc9-b5b6-4fbbb3092fe6"
-authors = ["Chetan Vardhan <1805204@kiit.ac.in> and contributors"]
+uuid = "5d470ebd-ea63-4c89-aa63-d5be5991fcaa"
+authors = ["Chetan Vardhan <chetan.verdhan8@gmail.com>"]
 version = "0.1.0"
-
-[deps]
-DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 
 [compat]
 julia = "1.6"
