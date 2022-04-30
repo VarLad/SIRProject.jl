@@ -6,7 +6,7 @@ function SIS(du, u, p, t)
 	du[1] = ds = -β*s*I/(s+I) + γ*I
 	du[2] = dI = β*s*I/(s+I) - γ*I
 end
-
+#=
 """
 Its governed by the following set of equations 
 ``\frac{dS}{dt} = \frac{-βIs}{s+I+r}``
@@ -17,7 +17,7 @@ Its governed by the following set of equations
 - ``r`` = individuals who've been infected but can not transmit the disease.
 ``\beta`` and ``\gamma`` are positive constants representing the infection rate and the recovery rate. 
 
-"""
+"""=#
 function SIR(du, u, p, t)
 	s, I, r = u
 	β, γ = p
